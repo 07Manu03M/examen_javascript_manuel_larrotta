@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Recetas</title>
+</head>
+<body>
+    <header class="cajita_header">
+        <h1>Crud De Recetas</h1>
+    </header>
+    <main class="caja_main"> 
+        <div class="cuestionario" id="recetaForm">
+            <div class="div_nombre">
+                <h1>Nombra tu receta</h1>
+                <input type="text" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="div_ingredientes">
+                <h1>Que ingrediente lleva?</h1>
+                <input type="text" id="ingredientes" placeholder="Ingrese Ingredientes">
+            </div>
+            <div class="div_preparacion">
+                <h1>Cual es su preparacion?</h1>
+                <input type="text" id="preparacion" placeholder="Instrucciones de preparacion">
+            </div>
+            <div class="div_tiempo">
+                <h1>Cual es su tiempo?</h1>
+                <input type="number" id="tiempo" placeholder="Tiempo de preparacion">
+            </div>
+            <div class="div_porciones">
+                <h1>Cual es su numero de porciones?</h1>
+                <input type="number" id="porciones" placeholder="Numero de porciones">
+            </div>
+            <div class="div_tipo">
+                <h1>Que tipo de comida es?</h1>
+                <select name="" id="tipo"></select>
+            </div>
+            <div class="div_dificultad">
+                <h1>Que dificultad es?</h1>
+                <select name="nolose" id="dificultad"></select>
+            </div>
+            <form action="" class="forms">
+                <button id="send">Save</button>
+            </form>
+        </div>
+    </main>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
